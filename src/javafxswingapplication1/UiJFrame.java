@@ -121,7 +121,11 @@ public class UiJFrame extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         jTextArea1.setText(null);
+<<<<<<< HEAD
 
+=======
+        jLabel2.setText(null);
+>>>>>>> 764882892c4bdd14567e2346754c8f1852bbed6d
         
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
