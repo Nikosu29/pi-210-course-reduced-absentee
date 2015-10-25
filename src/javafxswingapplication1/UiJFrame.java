@@ -120,8 +120,7 @@ public class UiJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        jTextArea1.setText(null);
-        jLabel2.setText(null);
+        
         
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
