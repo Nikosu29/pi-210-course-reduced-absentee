@@ -112,6 +112,9 @@ public class UiJFrame extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         String text = jTextArea1.getText();
         
+        if (text.length() == 0) {
+            jOptionPane1.showMessageDialog(null, "Введите текст");
+        }
 
         
         jLabel2.setText("Количество символов: " + text.length());
