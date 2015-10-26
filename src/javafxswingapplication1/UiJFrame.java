@@ -82,12 +82,12 @@ public class UiJFrame extends javax.swing.JFrame {
                     .add(layout.createSequentialGroup()
                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                             .add(jLabel2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 358, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                            .add(jLabel1)
-                            .add(layout.createSequentialGroup()
-                                .add(jButton1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 101, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                .add(18, 18, 18)
-                                .add(jButton2)))
-                        .add(0, 224, Short.MAX_VALUE)))
+                            .add(jLabel1))
+                        .add(0, 0, Short.MAX_VALUE))
+                    .add(layout.createSequentialGroup()
+                        .add(jButton1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 269, Short.MAX_VALUE)
+                        .add(18, 18, 18)
+                        .add(jButton2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 295, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
